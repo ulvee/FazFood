@@ -1,0 +1,190 @@
+.res .resb{
+    width: 100%;
+    height: 45vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("https://demo2.wpopal.com/fazfood/wp-content/uploads/2023/10/reser-bc.jpg");
+    position: relative;
+}
+.res .resb .resbs{
+    width: 100%;
+    height: 45vh;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: white;
+    font-family: "Barlow Condensed", sans-serif;
+    text-align: center;
+    position: absolute;
+}
+.res .resbs h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 60px 0 0;
+    font-size: 100px;
+    font-weight: bold;
+}
+.res .resbs p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 19px;
+    font-weight: 400;
+    margin: 15px;
+}
+.res .resbs p a{
+    text-decoration: none;
+    color: white;
+}
+.res .resbs p a:hover{
+    color:  rgb(5, 100, 51);
+}
+.res .resbs i{
+    font-size: 10px;
+    padding: 5px 5px 0 5px;
+}
+.whats{
+    font-family: "Barlow Condensed", sans-serif; 
+    text-align: center;
+    height: 25vh;
+}
+.whats .wh-text p{
+    color:  rgb(167, 32, 32);
+    font-size: 20px;
+    font-weight: bold;
+}
+.whats .wh-text h1{
+    font-size: 65px;
+    font-weight: bold;
+}
+.tables{
+   height: 70vh;
+    font-family: "Barlow Condensed", sans-serif; 
+}
+.tables .book{
+    width: 80%;
+    height: 60vh;
+    border-radius: 30px;
+    background-position: center;
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-image: url("https://demo2.wpopal.com/fazfood/wp-content/uploads/2023/10/h4-bg-2.png");
+}
+.tables .book .books{
+    width: 100%;
+    height: 60vh;
+    border-radius: 30px;
+    background-color: rgba(5, 100, 51, 0.936);
+}
+.tables .book .books form {
+   text-align: center;
+   padding: 10% 0 0;
+}
+.tables .books .inps input{
+    width: 300px;
+    height: 50px;
+    margin: 0 15px 30px;
+    border-radius: 10px;
+   padding: 0 1% ;
+   font-size: 18px; 
+   background-color: white;
+}
+.tables .books .sels input{
+    width: 300px;
+    height: 50px;
+    margin: 0 15px;
+    border-radius: 10px;
+    padding: 0 1% ;
+    font-size: 18px; 
+    background-color: white;
+    color: gray;
+}
+.tables .books .sels select{
+    width: 300px;
+    height: 50px;
+    margin: 0 15px;
+    border-radius: 10px;
+    border: none;
+    padding: 0 1% ;
+    font-size: 18px; 
+    color: gray;
+}
+.tables .books button{
+    
+    width: 200px;
+    height: 60px;
+    font-size: 18px;
+    border-radius: 10px;
+    font-family: 'Anton',cursive;
+    margin: 6%;
+    border: none;
+
+}
+.tables .books button:hover{
+    background-color:  rgb(167, 32, 32);
+    color: white;
+
+}
+
+
+/*=================================================================*/
+
+
+@media only screen and (max-width: 768px){
+    .res .resb{
+        width: 100%;
+        height: 40vh;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-image: url("https://demo2.wpopal.com/fazfood/wp-content/uploads/2023/10/reser-bc.jpg");
+        position: relative;
+    }
+    .res .resb .resbs{
+        width: 100%;
+        height: 40vh;
+       
+    }
+    .res .resbs h1{
+        font-size: 50px;
+
+    }
+    .res .resbs p{
+        font-size: 20px;
+    }
+    .whats .wh-text p{
+    font-size: 18px;
+    }
+    .whats .wh-text h1{
+    font-size: 30px;
+    }
+    .tables{
+        height: 100vh;
+         font-family: "Barlow Condensed", sans-serif; 
+     }
+     .tables .book{
+         width: 80%;
+         height: 90vh;
+         border-radius: 30px;
+         background-position: center;
+         background-size: cover;
+         background-repeat:no-repeat;
+         background-image: url("https://demo2.wpopal.com/fazfood/wp-content/uploads/2023/10/h4-bg-2.png");
+     }
+     .tables .book .books{
+         width: 100%;
+         height: 90vh;
+        
+     }
+     .tables .book .books button{
+        font-size: 18px;
+        width: 130px;
+        height: 50px;
+     }
+     .tables .book .books .sels select:nth-child(2){
+         margin: 30px;
+     }
+
+}
+
+

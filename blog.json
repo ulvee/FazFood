@@ -1,0 +1,122 @@
+[
+    {
+      "id": 1,
+      "category":"STARTUP",
+      "date":"OCTOBER 19, 2023",
+      "comment":"COMMENTS (3)",
+      "title": "BITE-SIZED BLISS: THE WORLD OF FAST FOOD",
+      "description": "Ac haca ullamcorper donec ante habi tasse donec imperdiet eturpis varius per a augue magna hac. Nec hac et vestibulum duis a tincidunt per a aptent interdum purus feugiat a id aliquet erat himenaeos nunc torquent euismod adipiscing adipiscing dui gravida justo.",
+      "image": "https://demo2.wpopal.com/fazfood/wp-content/uploads/2023/10/blog_12-1000x720.jpg"
+      
+    },
+    {
+      "id": 2,
+      "category":"LIFE LESSONS",
+      "date":"OCTOBER 19, 2023",
+      "comment":"COMMENTS (3)",
+      "title": "QUICK CRAVINGS: UNRAVELING FAST FOOD DELIGHTS",
+      "description": "Ac haca ullamcorper donec ante habi tasse donec imperdiet eturpis varius per a augue magna hac. Nec hac et vestibulum duis a tincidunt per a aptent interdum purus feugiat a id aliquet erat himenaeos nunc torquent euismod adipiscing adipiscing dui gravida justo.",
+      "image": "https://demo2.wpopal.com/fazfood/wp-content/uploads/2023/10/blog_11-1000x720.jpg"
+      
+    },
+    {
+      "id": 3,
+      "category":"BUSINESS",
+      "date":"OCTOBER 19, 2023",
+      "comment":"COMMENTS (3)",
+      "title": "FAST FOOD FRENZY: A TASTE OF CONVENIENCE",
+      "description": "Ac haca ullamcorper donec ante habi tasse donec imperdiet eturpis varius per a augue magna hac. Nec hac et vestibulum duis a tincidunt per a aptent interdum purus feugiat a id aliquet erat himenaeos nunc torquent euismod adipiscing adipiscing dui gravida justo.",
+      "image": "https://demo2.wpopal.com/fazfood/wp-content/uploads/2023/10/blog_10-1000x720.jpg"
+      
+    },
+    {
+      "id": 4,
+      "category":"LIFE LESSONS",
+      "date":"OCTOBER 19, 2023",
+      "comment":"COMMENTS (3)",
+      "title": "SAVORING SPEED: FAST FOOD FAVORITES",
+      "description": "Ac haca ullamcorper donec ante habi tasse donec imperdiet eturpis varius per a augue magna hac. Nec hac et vestibulum duis a tincidunt per a aptent interdum purus feugiat a id aliquet erat himenaeos nunc torquent euismod adipiscing adipiscing dui gravida justo.",
+      "image": "https://demo2.wpopal.com/fazfood/wp-content/uploads/2023/10/blog_9-1000x720.jpg"
+      
+    },
+    {
+      "id": 5,
+      "category":"BUSINESS",
+      "date":"OCTOBER 19, 2023",
+      "comment":"COMMENTS (3)",
+      "title": "FROM DRIVE-THRUS TO DELIGHTS: FAST FOOD STORIES",
+      "description": "Ac haca ullamcorper donec ante habi tasse donec imperdiet eturpis varius per a augue magna hac. Nec hac et vestibulum duis a tincidunt per a aptent interdum purus feugiat a id aliquet erat himenaeos nunc torquent euismod adipiscing adipiscing dui gravida justo.",
+      "image": "https://demo2.wpopal.com/fazfood/wp-content/uploads/2023/10/blog_8-1000x720.jpg"
+      
+    },
+    {
+      "id": 6,
+      "category":"CREATIVITY",
+      "date":"OCTOBER 19, 2023",
+      "comment":"COMMENTS (3)",
+      "title": "ON-THE-GO GOODNESS: FAST FOOD FEASTS",
+      "description": "Ac haca ullamcorper donec ante habi tasse donec imperdiet eturpis varius per a augue magna hac. Nec hac et vestibulum duis a tincidunt per a aptent interdum purus feugiat a id aliquet erat himenaeos nunc torquent euismod adipiscing adipiscing dui gravida justo.",
+      "image": "https://demo2.wpopal.com/fazfood/wp-content/uploads/2023/10/blog_7-1000x720.jpg"
+      
+    },
+    {
+      "id": 7,
+      "category":"LIFE LESSONS",
+      "date":"OCTOBER 19, 2023",
+      "comment":"COMMENTS (3)",
+      "title": "FLAVORS IN A FLASH: EXPLORING FAST FOOD",
+      "description": "Ac haca ullamcorper donec ante habi tasse donec imperdiet eturpis varius per a augue magna hac. Nec hac et vestibulum duis a tincidunt per a aptent interdum purus feugiat a id aliquet erat himenaeos nunc torquent euismod adipiscing adipiscing dui gravida justo.",
+      "image": "https://demo2.wpopal.com/fazfood/wp-content/uploads/2023/10/blog_6-1000x720.jpg"
+      
+    },
+    {
+      "id": 8,
+      "category":"STARTUP",
+      "date":"OCTOBER 19, 2023",
+      "comment":"COMMENTS (3)",
+      "title": "FAST FOOD ADVENTURES: A CULINARY RUSH",
+      "description": "Ac haca ullamcorper donec ante habi tasse donec imperdiet eturpis varius per a augue magna hac. Nec hac et vestibulum duis a tincidunt per a aptent interdum purus feugiat a id aliquet erat himenaeos nunc torquent euismod adipiscing adipiscing dui gravida justo.",
+      "image": "https://demo2.wpopal.com/fazfood/wp-content/uploads/2023/10/blog_5-1000x720.jpg"
+      
+    },
+    {
+      "id": 9,
+      "category":"LIFE LESSONS",
+      "date":"OCTOBER 19, 2023",
+      "comment":"COMMENTS (3)",
+      "title": "EATING FAST, TASTING GREAT: FAST FOOD SECRETS",
+      "description": "Ac haca ullamcorper donec ante habi tasse donec imperdiet eturpis varius per a augue magna hac. Nec hac et vestibulum duis a tincidunt per a aptent interdum purus feugiat a id aliquet erat himenaeos nunc torquent euismod adipiscing adipiscing dui gravida justo.",
+      "image": "https://demo2.wpopal.com/fazfood/wp-content/uploads/2023/10/blog_4-1000x720.jpg"
+      
+    },
+    {
+      "id": 10,
+      "category":"BUSINESS",
+      "date":"OCTOBER 19, 2023",
+      "comment":"COMMENTS (3)",
+      "title": "MUNCH, SIP, REPEAT: THE FAST FOOD LIFESTYLE",
+      "description": "Ac haca ullamcorper donec ante habi tasse donec imperdiet eturpis varius per a augue magna hac. Nec hac et vestibulum duis a tincidunt per a aptent interdum purus feugiat a id aliquet erat himenaeos nunc torquent euismod adipiscing adipiscing dui gravida justo.",
+      "image": "https://demo2.wpopal.com/fazfood/wp-content/uploads/2023/10/blog_3-1000x720.jpg"
+      
+    },
+    {
+      "id": 11,
+      "category":"STARTUP",
+      "date":"OCTOBER 19, 2023",
+      "comment":"COMMENTS (3)",
+      "title": "FAST FOOD FLAIR: FLAVOR AT YOUR FINGERTIPS",
+      "description": "Ac haca ullamcorper donec ante habi tasse donec imperdiet eturpis varius per a augue magna hac. Nec hac et vestibulum duis a tincidunt per a aptent interdum purus feugiat a id aliquet erat himenaeos nunc torquent euismod adipiscing adipiscing dui gravida justo.",
+      "image": "https://demo2.wpopal.com/fazfood/wp-content/uploads/2023/10/blog_2-1000x720.jpg"
+      
+    },
+    {
+      "id": 12,
+      "category":"LIFE LESSONS",
+      "date":"OCTOBER 19, 2023",
+      "comment":"COMMENTS (3)",
+      "title": "FFAST FOOD NATION: A GASTRONOMIC JOURNEY",
+      "description": "Ac haca ullamcorper donec ante habi tasse donec imperdiet eturpis varius per a augue magna hac. Nec hac et vestibulum duis a tincidunt per a aptent interdum purus feugiat a id aliquet erat himenaeos nunc torquent euismod adipiscing adipiscing dui gravida justo.",
+      "image": "https://demo2.wpopal.com/fazfood/wp-content/uploads/2023/10/blog_1-1000x720.jpg"
+      
+    }
+]

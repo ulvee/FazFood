@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "title": "BIG MAC",
+    "description": "Accusantium quis aut voluptatem id quasi voluptate. At blanditiis voluptas deleniti nihil. Aperiam sed animi recusandae sint. ",
+    "image":"https://demo2.wpopal.com/fazfood/wp-content/uploads/2023/10/product_27-768x768.png",
+    "price": "35.15$"
+  },
+  {
+    "id": 2,
+    "title": "WHOPPER BURGER KING",
+    "description": "Accusantium quis aut voluptatem id quasi voluptate. At blanditiis voluptas deleniti nihil. Aperiam sed animi recusandae sint. ",
+    "image":"https://demo2.wpopal.com/fazfood/wp-content/uploads/2023/10/product_26-768x768.png",
+    "price": "12.39$"
+  },
+  {
+    "id": 3,
+    "title": "CHICKEN MCNUGGETS",
+    "description": "Accusantium quis aut voluptatem id quasi voluptate. At blanditiis voluptas deleniti nihil. Aperiam sed animi recusandae sint. ",
+    "image":"https://demo2.wpopal.com/fazfood/wp-content/uploads/2023/10/product_25-768x768.png",
+    "price": "6.90$"
+  },
+  {
+    "id": 4,
+    "title": "CRUNCHWRAP SUPREME",
+    "description": "Accusantium quis aut voluptatem id quasi voluptate. At blanditiis voluptas deleniti nihil. Aperiam sed animi recusandae sint. ",
+    "image":"https://demo2.wpopal.com/fazfood/wp-content/uploads/2023/10/product_24-768x768.png",
+    "price": "5.40$"
+  }
+]

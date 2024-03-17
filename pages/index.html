@@ -1,0 +1,777 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Fazfood - Fast Food Restaurant</title>
+    <link
+      rel="shortcut icon"
+      href="../images/burgers.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link
+      rel="stylesheet"
+      href="../bootstrap-5.3.2-dist/bootstrap-5.3.2-dist/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anton&family=Barlow+Condensed:wght@200;300;400;500&family=Black+And+White+Picture&family=Heebo:wght@300;400;500&family=Hind+Madurai:wght@300;400;500;600&family=Jost&family=Merienda:wght@300;400;500&family=Merriweather+Sans:wght@600&family=Montserrat:wght@200;300;400;500&family=Nova+Mono&family=Ribeye+Marrow&family=Roboto&family=Teko:wght@300;400;500&family=Varela+Round&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="mode" class="light">
+      <header>
+        <nav class="navbar navbar-expand-lg">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#"
+              ><img
+                src="https://demo2.wpopal.com/fazfood/wp-content/uploads/2023/10/logo.svg"
+                alt=""
+            /></a>
+            <button
+              class="navbar-toggler my-4"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-2">
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link lang active dropdown-toggle"
+                    href="/pages/index.html"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    HOME
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link lang" href="/pages/menu.html">MENU</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link lang dropdown-toggle"
+                    href="/pages/pages.html"
+                    role="button"
+                    aria-expanded="false"
+                    data-bs-toggle="dropdown"
+                  >
+                    PAGES
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a class="dropdown-item lang" href="/pages/about.html"
+                        >About Us</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item lang" href="/pages/ourt.html"
+                        >Our Teams</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        class="dropdown-item lang"
+                        href="/pages/reservation.html"
+                        >Reservation</a
+                      >
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link lang dropdown-toggle"
+                    href="/pages/shop.html"
+                    role="button"
+                    aria-expanded="false"
+                  >
+                    SHOP
+                  </a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link lang dropdown-toggle"
+                    href="/pages/blog.html"
+                    role="button"
+                    aria-expanded="false"
+                  >
+                    BLOG
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link lang" href="/pages/contact.html"
+                    >CONTACT US</a
+                  >
+                </li>
+              </ul>
+              <form class="d-flex" style="gap: 0 10px">
+                <button id="btn-lang" class="btn btn-outline-success">
+                  Az
+                </button>
+                <button id="btn-dark"><i class="fa-solid fa-moon"></i></button>
+                <button class="loginn btn btn-outline-success">
+                  <a href="/pages/login.html" class="lang"
+                    ><i class="fa-regular fa-user"></i> LOGIN</a
+                  >
+                </button>
+
+                <button class="rgs btn btn-success">
+                  <a href="/pages/register.html" class="lang"
+                    ><i class="fa-regular fa-user"></i> REGISTER</a
+                  >
+                </button>
+
+                <button
+                  id="searchbtn"
+                  class="lang btn btn-outline-success"
+                  type="submit"
+                >
+                  Search
+                </button>
+
+                <button
+                  class="btn btn-danger"
+                  style="height: 50px;"
+                >
+                  <a href="/pages/reservation.html" class="lang">
+                    <i class="fa-solid fa-motorcycle"></i> ORDER NOW</a
+                  >
+                </button>
+
+                
+              
+
+                <!-- <button class="btn btn-success" type="submit" ">
+                <i class="fa-solid fa-cart-shopping"></i>
+                <span
+          class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger"
+        >
+          0
+         
+              </button> -->
+
+              
+                <button type="button" class="btn btn-success position-relative" style="width: 50px; height: 50px;padding: 0;" >
+                <a href="/pages/cart.html"><i class="fa-solid fa-cart-shopping"></i>
+                <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger" style="font-weight: 100;">
+                  0
+                  <span class="visually-hidden">unread messages</span>
+                </span></a>
+              </button>
+            
+
+              </form>
+            </div>
+          </div>
+        </nav>
+      </header>
+
+      <!-- <button
+        class="ofcnv btn btn-success position-absolute"
+        style="top: 24px; right: 12px; width: 50px; height: 50px"
+        type="button"
+        data-bs-toggle="offcanvas"
+        data-bs-target="#offcanvasRight"
+        aria-controls="offcanvasRight"
+      >
+        <i class="fa-solid fa-cart-shopping"></i>
+        <span
+          class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger"
+        >
+          0
+          <span class="visually-hidden">unread messages</span>
+        </span>
+      </button>
+
+      <div
+        class="offcanvas offcanvas-end"
+        tabindex="-1"
+        id="offcanvasRight"
+        aria-labelledby="offcanvasRightLabel"
+      >
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title lang" id="offcanvasRightLabel">
+            Shopping cart
+          </h5>
+          <button
+            type="button"
+            class="btn-close"
+            data-bs-dismiss="offcanvas"
+            aria-label="Close"
+          ></button>
+        </div>
+        <div class="offcanvas-body lang">No products in the cart.</div>
+      </div> -->
+
+      <main>
+        <section class="gril">
+          <div class="wrapper">
+            <div class="home1">
+              <div class="daire">
+                <img
+                  class="img-d"
+                  src="https://demo2.wpopal.com/fazfood/wp-content/uploads/2023/10/bicon2.png"
+                  alt=""
+                />
+                <img
+                  class="img-da"
+                  src="https://demo2.wpopal.com/fazfood/wp-content/uploads/2023/10/bicon1.png"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div class="home2">
+              <h1 class="lang">GRILLED <br />BEEF <br />BURGER</h1>
+              <p class="lang">
+                Secret family recipes are the stuff of legends and Stack <br />
+                burger blend is no exception.
+              </p>
+              <button class="btn btn-success lang">
+                ORDER NOW <i class="fa-solid fa-arrow-right"></i>
+              </button>
+            </div>
+          </div>
+        </section>
+
+        <section class="best">
+          <div class="wrapper">
+            <div class="container">
+              <div>
+                <img
+                  width="100"
+                  height="100"
+                  src="https://demo2.wpopal.com/fazfood/wp-content/uploads/2023/10/h1_vector1.png"
+                  alt=""
+                />
+              </div>
+
+              <div class="text-best">
+                <p class="lang">ABOUT OUR FOOD</p>
+                <h1 class="lang">
+                  BEST BURGER IDEAS & <br />TRADITIONS FROM THE <br />
+                  WHOLE WORLD
+                </h1>
+
+                <p class="text lang">
+                  The mouth-watering aroma of sizzling burgers now fills the
+                  streets of Birmingham <br />
+                  thanks to the passionate pursuit of three brothers, the
+                  British founders of Faz food. <br />
+                  After over 50 years of experience in the culinary industry
+                  between them, they set <br />
+                  out on a journey to discover the ultimate burger.
+                </p>
+
+                <a href="/pages/about.html">
+                  <button class="btn btn-success lang">
+                    ABOUT OUR FOOD
+                    <i class="fa-solid fa-arrow-right"></i></button
+                ></a>
+              </div>
+              <div
+                class="nugg"
+                style="
+                  display: flex;
+                  justify-content: space-between;
+                  margin: 0 40px 0;
+                "
+              >
+                <img
+                  width="100"
+                  height="100"
+                  src="https://demo2.wpopal.com/fazfood/wp-content/uploads/2023/10/h1_vector3.png"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="slide">
+          <div class="pizza">
+            <img
+              src="https://demo2.wpopal.com/fazfood/wp-content/uploads/2023/11/h1_cat4.png"
+              alt=""
+            />
+
+            <img class="imgsf" src="/images/pizza.png" alt="" />
+          </div>
+          <div class="burger">
+            <img
+              src="https://demo2.wpopal.com/fazfood/wp-content/uploads/2023/11/h1_cat2.png"
+              alt=""
+            />
+
+            <img class="imgsf" src="/images/fastf.png" alt="" />
+          </div>
+          <div class="fries">
+            <img
+              src="https://demo2.wpopal.com/fazfood/wp-content/uploads/2023/11/h1_cat5.png"
+              alt=""
+            />
+
+            <img class="imgsf" src="/images/fries.png" alt="" />
+          </div>
+        </section>
+        <section class="today">
+          <div class="wrapper">
+            <div class="stac">
+              <!-- <img
+              class=""
+              src="https://demo2.wpopal.com/fazfood/wp-content/uploads/2023/10/h1_bg2.jpg"
+              alt=""
+            /> -->
+            </div>
+            <div class="stac-txt">
+              <h1 class="lang">
+                TODAY'S A <br />
+                STACKIN' DAY
+              </h1>
+              <p class="lang">MEDIUM 4-TOPPING* BURGER</p>
+              <p class="lang">
+                *Additional charge for premium toppings. Minimum of 2 <br />
+                required.
+              </p>
+              <a href="/pages/shop.html"
+                ><button class="btn btn-success lang">
+                  SHOP NOW <i class="fa-solid fa-arrow-right"></i></button
+              ></a>
+            </div>
+          </div>
+        </section>
+        <section class="dish">
+          <div class="wrapper">
+            <div class="dis">
+              <p class="lang">POPULAR DISHES - POPULAR DISHES -</p>
+            </div>
+          </div>
+        </section>
+
+        <section class="selling">
+          <div class="wrapper">
+            <div class="container">
+              <div class="sell">
+                <h1 class="lang">BEST SELLING DISHES</h1>
+              </div>
+              <div class="cardss con mt-5" id="mac">
+                <ul class="row g-3" id="menus"></ul>
+              </div>
+              <div class="sel-txt">
+                <p class="text mt-5 lang">
+                  Fazfood is a unique and independent quick service brand.
+                  Fazfood burgers and shakes are made pretty hot and tasty. The
+                  ultimate “melt <br />
+                  in your mouth” experience. We are a fast-casual operation with
+                  dine in and take-away elements.
+                </p>
+                <a href="/pages/shop.html"
+                  ><button class="btn btn-success lang">
+                    VIEW ALL <i class="fa-solid fa-arrow-right"></i></button
+                ></a>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="fbc">
+          <div class="wrapper">
+            <div class="fash">
+              <div class="fashf">
+                <img
+                  class="w-100"
+                  src="https://demo2.wpopal.com/fazfood/wp-content/uploads/2023/10/h2_img-2.png"
+                  alt=""
+                />
+              </div>
+              <h1 class="lang">
+                FASH FOOD <br />
+                MEALS
+              </h1>
+              <p class="lang">
+                NEW PHENOMENON <br />
+                BURGER TASTE
+              </p>
+              <p class="price">$59,00</p>
+              <a href="/pages/shop.html"
+                ><button class="btn btn-outline-danger lang">
+                  ORDER NOW <i class="fa-solid fa-arrow-right"></i></button
+              ></a>
+            </div>
+            <div class="beef">
+              <div class="beefb">
+                <img
+                  class="w-100"
+                  src="https://demo2.wpopal.com/fazfood/wp-content/uploads/2023/10/h2_img-3.png"
+                  alt=""
+                />
+              </div>
+              <h1 class="lang">
+                BEEF <br />
+                BURGER
+              </h1>
+              <p class="lang">
+                NEW PHENOMENON <br />
+                BURGER TASTE
+              </p>
+              <p class="price">$59,00</p>
+              <a href="/pages/shop.html"
+                ><button class="btn btn-outline-danger lang">
+                  ORDER NOW <i class="fa-solid fa-arrow-right"></i></button
+              ></a>
+            </div>
+            <div class="chees">
+              <h1 class="lang">
+                CHEESE <br />
+                PIZZA
+              </h1>
+              <p class="lang">
+                NEW PHENOMENON <br />
+                BURGER TASTE
+              </p>
+              <p class="price">$49,00</p>
+              <a href="/pages/shop.html"
+                ><button class="btn btn-outline-danger lang">
+                  ORDER NOW <i class="fa-solid fa-arrow-right"></i></button
+              ></a>
+            </div>
+          </div>
+        </section>
+        <section class="make">
+          <div class="wrapper">
+            <div class="makev">
+              <div class="makes">
+                <div class="dairem">
+                  <img
+                    class="img-d"
+                    src="https://demo2.wpopal.com/fazfood/wp-content/uploads/2023/10/bicon2.png"
+                    alt=""
+                  />
+                  <img
+                    class="img-da"
+                    src="https://demo2.wpopal.com/fazfood/wp-content/uploads/2023/10/bicon1.png"
+                    alt=""
+                  />
+                </div>
+                <div class="make-text">
+                  <h1 class="lang">
+                    MAKE THE THING ANYTHING <br />
+                    IS POSSIBLE
+                  </h1>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="test">
+          <div class="wrapper">
+            <div class="testim">
+              <p class="lang">TESTIMONIALS - TESTIMONIALS -</p>
+            </div>
+          </div>
+        </section>
+        <div class="txt-comm">
+          <h1 class="lang">WHAT YOUR CLIENT SAYS</h1>
+          <p class="text comt lang">
+            A team of dreamers and doers building unique interactive music
+            <br />
+            and art festivals.
+          </p>
+        </div>
+        <section class="says">
+          <div class="wrapper">
+            <div class="com">
+              <p>
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+                ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+                ><i class="fa-solid fa-star"></i>
+              </p>
+              <p >
+                “It is a long established fact that a reader will be distracted
+                by the readable content of a page when looking at its layout.The
+                point of using Lorem Ipsum is that”
+              </p>
+              <div class="im-tx">
+                <div class="img-com">
+                  <img src="../images/home1_files/avarta1.png" alt="" />
+                </div>
+                <div class="com-txt">
+                  <h3>MIRANDA HALIM</h3>
+                  <p class="lang">Design</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="comm">
+              <p>
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+                ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+                ><i class="fa-solid fa-star"></i>
+              </p>
+              <p >
+                “It is a long established fact that a reader will be distracted
+                by the readable content of a page when looking at its layout.The
+                point of using Lorem Ipsum is that”
+              </p>
+              <div class="im-tx">
+                <div class="img-com">
+                  <img src="../images/home1_files/avarta2.png" alt="" />
+                </div>
+                <div class="com-txt">
+                  <h3>JENNIFER G</h3>
+                  <p class="lang">Design</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="commm">
+              <p>
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+                ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+                ><i class="fa-solid fa-star"></i>
+              </p>
+              <p >
+                “It is a long established fact that a reader will be distracted
+                by the readable content of a page when looking at its layout.The
+                point of using Lorem Ipsum is that”
+              </p>
+              <div class="im-tx">
+                <div class="img-com">
+                  <img src="../images/home1_files/avarta3.png" alt="" />
+                </div>
+                <div class="com-txt">
+                  <h3>JOHN D</h3>
+                  <p class="lang">Design</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="super">
+          <div class="wrapper">
+            <div class="deliv">
+              <img
+                class="img-de"
+                src="https://demo2.wpopal.com/fazfood/wp-content/uploads/2023/10/menu-img2.png"
+                alt=""
+              />
+              <div class="minp">
+                <h1 class="lang">
+                  SUPER <br />
+                  DELICIOUS
+                </h1>
+                <h4 class="lang">CALL US NOW:</h4>
+                <h2>1-800-555-333</h2>
+                <a href="/pages/shop.html"
+                  ><button class="btn btn-outline-danger lang">
+                    ORDER NOW <i class="fa-solid fa-arrow-right"></i></button
+                ></a>
+              </div>
+            </div>
+            <div class="delive">
+              <img
+                class="img-dee"
+                src="https://demo2.wpopal.com/fazfood/wp-content/uploads/2023/10/menu-img3.png"
+                alt=""
+              />
+              <div class="mins">
+                <h1 class="lang">
+                  30 MINUTES <br />
+                  DELIVERY!
+                </h1>
+                <p class="lang">
+                  If you’re having a meeting, working late <br />
+                  at night and need an extra push.
+                </p>
+                <a href="/pages/shop.html"
+                  ><button class="btn btn-outline-danger lang">
+                    MAKE AN ORDER
+                    <i class="fa-solid fa-arrow-right"></i></button
+                ></a>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="follow">
+          <div class="wrapper">
+            <div class="subs">
+              <p class="lang">SUBSCRIBE - FOLLOW - NEWSLETTER</p>
+            </div>
+          </div>
+        </section>
+        <section class="join">
+          <div class="wrapper">
+            <div class="j-for">
+              <h1 class="lang">JOIN FOR HOT OFFERS</h1>
+              <p class="text lang">
+                If we go all out… We do it well! Subscribe to the newsletter
+                <br />
+                to get the most exclusive promos.
+              </p>
+            </div>
+          </div>
+        </section>
+        <section class="inptt">
+          <div class="wrapper">
+            <div class="inp-img"></div>
+            <div class="inputt">
+              <input type="email" placeholder=" Email address" />
+             
+            </div>
+            <div class="inp-btn">
+              <button class="btn btn-success lang">
+                SUBSCRIBE <i class="fa-solid fa-arrow-right"></i>
+              </button>
+            </div>
+            <div class="inp-imgg"></div>
+          </div>
+        </section>
+        <section class="menyu">
+          <div class="wrapper">
+            <div><img src="../images/home1_files/gallery2.jpg" alt="" /></div>
+            <div><img src="../images/home1_files/gallery5.jpg" alt="" /></div>
+            <div><img src="../images/home1_files/gallery6.jpg" alt="" /></div>
+            <div><img src="../images/home1_files/gallery7.jpg" alt="" /></div>
+            <div><img src="../images/home1_files/gallery10.jpg" alt="" /></div>
+          </div>
+        </section>
+        <div class="foot">
+          <footer
+            style="width: 85%; margin: 0 7%"
+            class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 my-2"
+          >
+            <div class="col mb-3">
+              <a
+                href="/"
+                class="d-flex align-items-center mb-3 link-body-emphasis text-decoration-none"
+              >
+                <img
+                  src="https://demo2.wpopal.com/fazfood/wp-content/uploads/2023/10/logo.svg"
+                  alt=""
+                />
+              </a>
+              <p class="text">2972 Westheimer Rd. Santa Ana, Illinois 85486</p>
+              <p class="text">support@example.com</p>
+              <p class="text">
+                <span style="color: rgb(167, 32, 32)">+(084) 456-0789</span>
+              </p>
+            </div>
+
+            <div class="col mb-3">
+              <h5 class="lang">PRODUCTS</h5>
+              <ul class="nav flex-column">
+                <li class="nav-item mb-2">
+                  <a href="#" class="nav-link p-0 text lang">BURGER</a>
+                </li>
+                <li class="nav-item mb-2">
+                  <a href="#" class="nav-link p-0 text lang"
+                    >KING DELIGHT PRODUCTS</a
+                  >
+                </li>
+                <li class="nav-item mb-2">
+                  <a href="#" class="nav-link p-0 text lang">CRISPY FLAVORS</a>
+                </li>
+                <li class="nav-item mb-2">
+                  <a href="#" class="nav-link p-0 text lang"
+                    >BREAKFAST PRODUCTS</a
+                  >
+                </li>
+              </ul>
+            </div>
+
+            <div class="col mb-3">
+              <h5 class="nnn">--------</h5>
+              <ul class="nav flex-column">
+                <li class="nav-item mb-2">
+                  <a href="#" class="nav-link p-0 text"></a>
+                </li>
+                <li class="nav-item mb-2">
+                  <a href="#" class="nav-link p-0 text lang">KIDS MENU</a>
+                </li>
+                <li class="nav-item mb-2">
+                  <a href="#" class="nav-link p-0 text lang">DESSERTS</a>
+                </li>
+                <li class="nav-item mb-2">
+                  <a href="#" class="nav-link p-0 text lang">BEVERAGES</a>
+                </li>
+                <li class="nav-item mb-2">
+                  <a href="#" class="nav-link p-0 text lang">SAUCES</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="col mb-3">
+              <h5 class="lang">QUICK LINKS</h5>
+              <ul class="nav flex-column">
+                <li class="nav-item mb-2">
+                  <a href="/pages/index.html" class="nav-link p-0 text lang"
+                    >HOME</a
+                  >
+                </li>
+                <li class="nav-item mb-2">
+                  <a href="/pages/menu.html" class="nav-link p-0 text lang"
+                    >MENU</a
+                  >
+                </li>
+                <li class="nav-item mb-2">
+                  <a href="/pages/about.html" class="nav-link p-0 text lang"
+                    >ABOUT US</a
+                  >
+                </li>
+                <li class="nav-item mb-2">
+                  <a href="/pages/contact.html" class="nav-link p-0 text lang"
+                    >CONTACTS</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div id="icon" class="hour col mb-3">
+              <h5 class="lang">OPENING HOURS</h5>
+              <p class="text lang">
+                Monday-Friday:
+                <span style="color: rgb(167, 32, 32)">8am-4pm</span>
+              </p>
+              <p class="text lang">
+                Saturday: <span style="color: rgb(167, 32, 32)">8am-12am</span>
+              </p>
+              <div class="icons">
+                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-pinterest"></i>
+              </div>
+            </div>
+          </footer>
+          <hr />
+          <div class="copy text">
+            <p class="lang">
+              Copyright © 2023
+              <span style="color: rgb(167, 32, 32)">Fazfood</span>. All rights
+              reserved
+            </p>
+          </div>
+        </div>
+      </main>
+      <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"
+      ></script>
+      <script src="../js/script.js"></script>
+    </div>
+  </body>
+</html>

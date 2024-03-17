@@ -1,0 +1,226 @@
+[
+  {
+    "id": 1,
+    "category":"Burger",
+    "title": "BIG MAC",
+    "description": "Accusantium quis aut voluptatem id quasi voluptate. At blanditiis voluptas deleniti nihil. Aperiam sed animi recusandae sint. ",
+    "image": "https://demo2.wpopal.com/fazfood/wp-content/uploads/2023/10/product_27-768x768.png",
+    "price": "35.15$"
+  },
+  {
+    "id": 2,
+    "category":"Burger",
+    "title": "WHOPPER BURGER KING",
+    "description": "Accusantium quis aut voluptatem id quasi voluptate. At blanditiis voluptas deleniti nihil. Aperiam sed animi recusandae sint. ",
+    "image": "https://demo2.wpopal.com/fazfood/wp-content/uploads/2023/10/product_26-768x768.png",
+    "price": "12.39$"
+  },
+  {
+    "id": 3,
+    "category":"Burger",
+    "title": "DOUBLE-DOUBLE",
+    "description": "Accusantium quis aut voluptatem id quasi voluptate. At blanditiis voluptas deleniti nihil. Aperiam sed animi recusandae sint. ",
+    "image": "https://demo2.wpopal.com/fazfood/wp-content/uploads/2023/10/product_21-768x768.png",
+    "price": "9.35$"
+  },
+  {
+    "id": 4,
+    "category":"Burger",
+    "title": "CLASSIC ROAST BEEF",
+    "description": "Accusantium quis aut voluptatem id quasi voluptate. At blanditiis voluptas deleniti nihil. Aperiam sed animi recusandae sint. ",
+    "image": "https://demo2.wpopal.com/fazfood/wp-content/uploads/2023/10/product_15-768x768.png",
+    "price": "9.58$"
+  },
+  {
+    "id": 5,
+    "category":"Pizza",
+    "title": "CRUNCHWRAP SUPREME",
+    "description": "Accusantium quis aut voluptatem id quasi voluptate. At blanditiis voluptas deleniti nihil. Aperiam sed animi recusandae sint. ",
+    "image": "https://demo2.wpopal.com/fazfood/wp-content/uploads/2023/10/product_24-768x768.png",
+    "price": "5.40$"
+  },
+  {
+    "id": 6,
+    "category":"Pizza",
+    "title": "SUBWAY MELT",
+    "description": "Accusantium quis aut voluptatem id quasi voluptate. At blanditiis voluptas deleniti nihil. Aperiam sed animi recusandae sint. ",
+    "image": "https://demo2.wpopal.com/fazfood/wp-content/uploads/2023/10/product_20-768x768.png",
+    "price": "6.90$"
+  },
+  {
+    "id": 7,
+    "category":"Pizza",
+    "title": "FISH FILLET",
+    "description": "Accusantium quis aut voluptatem id quasi voluptate. At blanditiis voluptas deleniti nihil. Aperiam sed animi recusandae sint. ",
+    "image": "https://demo2.wpopal.com/fazfood/wp-content/uploads/2023/10/product_10-768x768.png",
+    "price": "5.90$"
+  },
+  {
+    "id": 8,
+    "category":"Pizza",
+    "title": "SAUSAGE, EGG & CHEESE CROISSAN'WICH",
+    "description": "Accusantium quis aut voluptatem id quasi voluptate. At blanditiis voluptas deleniti nihil. Aperiam sed animi recusandae sint. ",
+    "image": "https://demo2.wpopal.com/fazfood/wp-content/uploads/2023/10/product_9-768x768.png",
+    "price": "3.90$-5.60$"
+  },
+  {
+    "id": 9,
+    "category":"Sushi",
+    "title": "CRUNCHWRAP SUPREME",
+    "description": "Accusantium quis aut voluptatem id quasi voluptate. At blanditiis voluptas deleniti nihil. Aperiam sed animi recusandae sint. ",
+    "image": "https://demo2.wpopal.com/fazfood/wp-content/uploads/2023/10/product_24-768x768.png",
+    "price": "5.40$"
+  },
+  {
+    "id": 10,
+    "category":"Sushi",
+    "title": "TACO SUPREME",
+    "description": "Accusantium quis aut voluptatem id quasi voluptate. At blanditiis voluptas deleniti nihil. Aperiam sed animi recusandae sint. ",
+    "image": "https://demo2.wpopal.com/fazfood/wp-content/uploads/2023/10/product_23-768x768.png",
+    "price": "8.32$"
+  },
+  {
+    "id": 11,
+    "category":"Sushi",
+    "title": "PIECE CHICKEN MCNUGGETS",
+    "description": "Accusantium quis aut voluptatem id quasi voluptate. At blanditiis voluptas deleniti nihil. Aperiam sed animi recusandae sint. ",
+    "image": "https://demo2.wpopal.com/fazfood/wp-content/uploads/2023/10/product_13-768x768.png",
+    "price": "9.08$"
+  },
+  {
+    "id": 12,
+    "category":"Sushi",
+    "title": "BEEF'N CHEDDAR",
+    "description": "Accusantium quis aut voluptatem id quasi voluptate. At blanditiis voluptas deleniti nihil. Aperiam sed animi recusandae sint. ",
+    "image": "https://demo2.wpopal.com/fazfood/wp-content/uploads/2023/10/product_1-768x768.png",
+    "price": "5.99$"
+  },
+  {
+    "id": 13,
+    "category":"Salats",
+    "title": "TACO SUPREME",
+    "description": "Accusantium quis aut voluptatem id quasi voluptate. At blanditiis voluptas deleniti nihil. Aperiam sed animi recusandae sint. ",
+    "image": "https://demo2.wpopal.com/fazfood/wp-content/uploads/2023/10/product_23-768x768.png",
+    "price": "8.32$"
+  },
+  {
+    "id": 14,
+    "category":"Salats",
+    "title": "SUBWAY MELT",
+    "description": "Accusantium quis aut voluptatem id quasi voluptate. At blanditiis voluptas deleniti nihil. Aperiam sed animi recusandae sint. ",
+    "image": "https://demo2.wpopal.com/fazfood/wp-content/uploads/2023/10/product_20-768x768.png",
+    "price": "6.90$"
+  },
+  {
+    "id": 15,
+    "category":"Salats",
+    "title": "LOADED FRIES",
+    "description": "Accusantium quis aut voluptatem id quasi voluptate. At blanditiis voluptas deleniti nihil. Aperiam sed animi recusandae sint. ",
+    "image": "https://demo2.wpopal.com/fazfood/wp-content/uploads/2023/10/product_14-768x768.png",
+    "price": "2.26$"
+  },
+  {
+    "id": 16,
+    "category":"Salats",
+    "title": "SONIC BLAST",
+    "description": "Accusantium quis aut voluptatem id quasi voluptate. At blanditiis voluptas deleniti nihil. Aperiam sed animi recusandae sint. ",
+    "image": "https://demo2.wpopal.com/fazfood/wp-content/uploads/2023/10/product_6-768x768.png",
+    "price": "6.29$"
+  },
+  {
+    "id": 17,
+    "category":"Burrito",
+    "title": "BIG MAC",
+    "description": "Accusantium quis aut voluptatem id quasi voluptate. At blanditiis voluptas deleniti nihil. Aperiam sed animi recusandae sint. ",
+    "image": "https://demo2.wpopal.com/fazfood/wp-content/uploads/2023/10/product_27-768x768.png",
+    "price": "35.15$"
+  },
+  {
+    "id": 18,
+    "category":"Burrito",
+    "title": "WHOPPER BURGER KING",
+    "description": "Accusantium quis aut voluptatem id quasi voluptate. At blanditiis voluptas deleniti nihil. Aperiam sed animi recusandae sint. ",
+    "image": "https://demo2.wpopal.com/fazfood/wp-content/uploads/2023/10/product_26-768x768.png",
+    "price": "12.39$"
+  },
+  {
+    "id": 19,
+    "category":"Burrito",
+    "title": "CHICKEN MCNUGGETS",
+    "description": "Accusantium quis aut voluptatem id quasi voluptate. At blanditiis voluptas deleniti nihil. Aperiam sed animi recusandae sint. ",
+    "image": "https://demo2.wpopal.com/fazfood/wp-content/uploads/2023/10/product_25-768x768.png",
+    "price": "6.90$"
+  },
+  {
+    "id": 20,
+    "category":"Burrito",
+    "title": "CRUNCHWRAP SUPREME",
+    "description": "Accusantium quis aut voluptatem id quasi voluptate. At blanditiis voluptas deleniti nihil. Aperiam sed animi recusandae sint. ",
+    "image": "https://demo2.wpopal.com/fazfood/wp-content/uploads/2023/10/product_24-768x768.png",
+    "price": "5.40$"
+  },
+  {
+    "id": 21,
+    "category":"Fries",
+    "title": "CHICKEN MCNUGGETS",
+    "description": "Accusantium quis aut voluptatem id quasi voluptate. At blanditiis voluptas deleniti nihil. Aperiam sed animi recusandae sint. ",
+    "image": "https://demo2.wpopal.com/fazfood/wp-content/uploads/2023/10/product_25-768x768.png",
+    "price": "6.90$"
+  },
+  {
+    "id": 22,
+    "category":"Fries",
+    "title": "CRUNCHWRAP SUPREME",
+    "description": "Accusantium quis aut voluptatem id quasi voluptate. At blanditiis voluptas deleniti nihil. Aperiam sed animi recusandae sint. ",
+    "image": "https://demo2.wpopal.com/fazfood/wp-content/uploads/2023/10/product_24-768x768.png",
+    "price": "5.40$"
+  },
+  {
+    "id": 23,
+    "category":"Fries",
+    "title": "JUMBO JACK",
+    "description": "Accusantium quis aut voluptatem id quasi voluptate. At blanditiis voluptas deleniti nihil. Aperiam sed animi recusandae sint. ",
+    "image": "https://demo2.wpopal.com/fazfood/wp-content/uploads/2023/10/product_18-768x768.png",
+    "price": "9.83$"
+  },
+  {
+    "id": 24,
+    "category":"Fries",
+    "title": "SPICY CHICKEN SANDWICH",
+    "description": "Accusantium quis aut voluptatem id quasi voluptate. At blanditiis voluptas deleniti nihil. Aperiam sed animi recusandae sint. ",
+    "image": "https://demo2.wpopal.com/fazfood/wp-content/uploads/2023/10/product_17-768x768.png",
+    "price": "12.46$"
+  },
+  {
+    "id": 25,
+    "category":"Beverages",
+    "title": "BIG MAC",
+    "description": "Accusantium quis aut voluptatem id quasi voluptate. At blanditiis voluptas deleniti nihil. Aperiam sed animi recusandae sint. ",
+    "image": "https://demo2.wpopal.com/fazfood/wp-content/uploads/2023/10/product_27-768x768.png",
+    "price": "35.15$"
+  },
+  {
+    "id": 26,
+    "category":"Beverages",
+    "title": "WHOPPER BURGER KING",
+    "description": "Accusantium quis aut voluptatem id quasi voluptate. At blanditiis voluptas deleniti nihil. Aperiam sed animi recusandae sint. ",
+    "image": "https://demo2.wpopal.com/fazfood/wp-content/uploads/2023/10/product_26-768x768.png",
+    "price": "12.39$"
+  },
+  {
+    "id": 27,
+    "category":"Beverages",
+    "title": "CHICKEN MCNUGGETS",
+    "description": "Accusantium quis aut voluptatem id quasi voluptate. At blanditiis voluptas deleniti nihil. Aperiam sed animi recusandae sint. ",
+    "image": "https://demo2.wpopal.com/fazfood/wp-content/uploads/2023/10/product_25-768x768.png",
+    "price": "6.90$"
+  },
+  {
+    "id": 28,
+    "category":"Beverages",
+    "title": "CRUNCHWRAP SUPREME",
+    "description": "Accusantium quis aut voluptatem id quasi voluptate. At blanditiis voluptas deleniti nihil. Aperiam sed animi recusandae sint. ",
+    "image": "https://demo2.wpopal.com/fazfood/wp-content/uploads/2023/10/product_24-768x768.png",
+    "price": "5.40$"
+  }
+]

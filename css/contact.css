@@ -1,0 +1,206 @@
+.cont .homec {
+  width: 100%;
+  height: 45vh;
+
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("https://demo2.wpopal.com/fazfood/wp-content/uploads/2023/10/ct-bc.jpg");
+}
+.cont .homesh {
+  width: 100%;
+  height: 45vh;
+  background-color: rgba(0, 0, 0, 0.4);
+  position: absolute;
+  color: white;
+  font-family: "Barlow Condensed", sans-serif;
+}
+.cont .homesh h1 {
+  display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 60px 0 0;
+    font-size: 100px;
+    font-weight: bold;
+}
+.cont .homesh p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 19px;
+  font-weight: 400;
+  margin: 15px;
+}
+.cont .homesh p a{
+  text-decoration: none;
+    color: white;
+}
+.cont .homesh p a:hover{
+  color:rgb(5, 100, 51);
+
+}
+.cont .homesh p i {
+  font-size: 10px;
+  padding: 5px 5px 0 5px;
+}
+.getch {
+  width: 100%;
+  height: 40vh;
+  padding: 50px ;
+  text-align: center;
+  font-family: "Barlow Condensed", sans-serif;
+}
+.getch h1{
+    font-size: 70px;
+    font-weight: bold;
+   
+
+} 
+.getch p{
+    font-size: 20px;
+}
+.gettoo{
+    font-family: "Barlow Condensed", sans-serif;
+    text-align: center;
+}
+.gettoo .touch{
+    padding: 0 80px;
+}
+.gettoo h4{
+    font-size: 35px;
+    font-weight: bold;
+}
+.gettoo p{
+    font-size: 20px;
+}
+.gettoo a{
+    text-decoration: none;
+    color: green;
+    font-size: 20px;
+    font-weight: bold;
+}
+.gettoo a:hover{
+    color: rgb(167, 32, 32);
+}
+.gettoo i {
+    font-size: 50px;
+    color: rgb(207, 31, 12);
+    color: linear-gradient(
+      10deg,
+      rgba(207, 31, 12, 1) 0%,
+      rgba(255, 243, 0, 1) 100%
+    );
+    padding: 20px;
+  }
+  iframe{
+    width: 100%;
+    height: 90vh;
+    padding: 50px 0;
+  }
+.container {
+  font-family: "Barlow Condensed", sans-serif;
+  height: 120vh;
+  width: 60%;
+}
+.container h1 {
+  font-weight: bold;
+  font-size: 70px;
+  padding: 50px;
+}
+.container label {
+  font-size: 20px;
+}
+.container button {
+  border: none;
+  width: 190px;
+  height: 60px;
+  border-radius: 10px;
+  font-family: "Anton", sans-serif;
+  font-size: 20px;
+}
+.container button:hover {
+  background-color: rgb(167, 32, 32);
+  transition-duration: 0.5s;
+}
+
+/* =====================  mode  =============== */
+.light .getch,
+.light .gettoo,
+.light .map,
+.light .sendm{
+  background-color: rgb(248, 244, 238);
+  color: black;
+}
+.dark .getch,
+.dark .gettoo,
+.dark .map,
+.dark .sendm{
+  background-color: rgb(37, 37, 37);
+  color: white;
+}
+.light input,
+.light textarea{
+  border: none;
+}
+.dark input,
+.dark textarea{
+  background-color: rgb(100, 100, 100);
+  color: white;
+  border: none;
+}
+
+/* =========================================================== */
+@media only screen and (max-width: 768px){
+  .cont .homec {
+    width: 100%;
+    height: 40vh;
+  
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("https://demo2.wpopal.com/fazfood/wp-content/uploads/2023/10/ct-bc.jpg");
+  }
+  .cont .homesh {
+    width: 100%;
+    height: 40vh;
+  
+  }
+  .cont .homesh h1 {
+   
+      font-size: 40px;
+      font-weight: bold;
+  }
+  .cont .homesh p {
+    font-size: 15px;
+  }
+  .getch .get h1{
+    font-size: 25px;
+  }
+  .getch .get p{
+    font-size: 15px;
+  }
+  .gettoo .wrapper{
+    display: block;
+  }
+  .gettoo h4{
+    font-size: 20px;
+  }
+  .gettoo p{
+    font-size: 15px;
+  }
+  .sendm h1{
+    font-size: 25px;
+  }
+  .sendm button{
+    width: 140px;
+    height: 45px;
+  }
+  .sendm button{
+    font-size: 15px;
+  }
+  .sendm label{
+    font-size: 17px;
+  }
+}

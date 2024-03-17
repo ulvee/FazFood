@@ -1,0 +1,522 @@
+a {
+  text-decoration: none;
+}
+.about .abt {
+  width: 100%;
+  height: 45vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  background-image: url("https://demo2.wpopal.com/fazfood/wp-content/uploads/2023/10/about-bc.jpg");
+}
+.about .abt .abts {
+  width: 100%;
+  height: 45vh;
+  background-color: rgba(0, 0, 0, 0.4);
+  color: white;
+  font-family: "Barlow Condensed", sans-serif;
+
+  text-align: center;
+  position: absolute;
+}
+.about .abt .abts h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 60px 0 0;
+  font-size: 100px;
+  font-weight: bold;
+}
+.about .abt .abts p a {
+  color: white;
+}
+.about .abt .abts p a:hover {
+  color: rgb(5, 100, 51);
+}
+.about .abt .abts p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 19px;
+  font-weight: 400;
+  margin: 15px;
+}
+.about .abt .abts p i {
+  font-size: 10px;
+  padding: 5px 5px 0 5px;
+}
+.bmade {
+  height: 100vh;
+}
+.bmade .cola {
+  width: 50%;
+}
+.bmade .maderight p:nth-child(1) {
+  color: rgb(167, 32, 32);
+  font-weight: bold;
+  font-size: 17px;
+}
+.bmade .maderight h1 {
+  font-weight: bold;
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 80px;
+}
+.bmade .maderight p:nth-child(3) {
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 18px;
+}
+.bmade .maderight p:nth-child(4) {
+  font-weight: bold;
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 18px;
+}
+.bmade .maderight p:nth-child(5) {
+  font-weight: bold;
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 18px;
+}
+
+.bmade .maderight span {
+  color: rgb(167, 32, 32);
+  font-size: 60px;
+  font-weight: bold;
+}
+.magic {
+  height: 40vh;
+}
+.magic .taste {
+  text-align: center;
+}
+.magic .taste p:nth-child(1) {
+  color: rgb(167, 32, 32);
+  font-weight: bold;
+  font-size: 17px;
+}
+.magic .taste h1 {
+  font-weight: bold;
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 60px;
+}
+.magic .taste p:nth-child(3) {
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 18px;
+}
+.dropdown-item:hover {
+  color: rgb(167, 32, 32);
+  background: none;
+}
+.bct {
+  height: 100vh;
+}
+.bct .card-bct {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 30%;
+  gap: 40px;
+  text-align: center;
+  font-family: "Barlow Condensed", sans-serif;
+}
+.bct .card-bct .imgb {
+  width: 380px;
+  height: 440px;
+  border-radius: 20px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("https://demo2.wpopal.com/fazfood/wp-content/uploads/2023/10/h5_banner4.jpg");
+}
+.bct .card-bct .imgc {
+  width: 380px;
+  height: 440px;
+  border-radius: 20px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("https://demo2.wpopal.com/fazfood/wp-content/uploads/2023/10/h5_banner5.jpg");
+}
+.bct .card-bct .imgt {
+  width: 380px;
+  height: 440px;
+  border-radius: 20px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("https://demo2.wpopal.com/fazfood/wp-content/uploads/2023/10/h5_banner6.jpg");
+}
+.bct .card-bct .cardh h1 {
+  font-weight: bold;
+  padding: 15px 0;
+}
+.bct .card-bct .cardp p {
+  font-size: 20px;
+}
+.reser {
+  height: 120vh;
+}
+.reser .plan {
+  width: 100%;
+  height: 80vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("https://demo2.wpopal.com/fazfood/wp-content/uploads/2023/10/h2_bg-1.jpg");
+  color: white;
+  font-family: "Barlow Condensed", sans-serif;
+  padding: 70px 0 0 70px;
+  position: relative;
+}
+.reser .plan span {
+  color: rgb(167, 32, 32);
+  font-weight: bold;
+  font-size: 30px;
+}
+.reser .plan h1 {
+  font-weight: bold;
+  font-size: 50px;
+  padding: 3% 0;
+}
+.reser .plan p:nth-child(2) {
+  font-size: 18px;
+  padding: 0 0 3%;
+}
+.reser .plan p:nth-child(3) {
+  font-size: 20px;
+  font-weight: bold;
+}
+.reser .rsrv {
+  width: 40%;
+  height: 80vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("https://demo2.wpopal.com/fazfood/wp-content/uploads/2023/10/h4-bg-2.png");
+  position: absolute;
+  background-color: green;
+  border-radius: 30px;
+  right: 15%;
+  margin: 17% 0 0;
+}
+.reser .rsrv .ress {
+  width: 100%;
+  height: 80vh;
+  background-color: rgba(5, 100, 51, 0.936);
+  border-radius: 30px;
+  text-align: center;
+  color: white;
+  font-family: "Barlow Condensed", sans-serif;
+}
+.reser .rsrv .ress h1 {
+  font-weight: bold;
+  font-size: 80px;
+  padding: 5% 0 0;
+}
+.reser .rsrv .ress p {
+  font-weight: bold;
+  font-size: 20px;
+  padding: 0 0 5%;
+}
+.reser .rsrv .ress input {
+  border: 2px solid white;
+  width: 250px;
+  height: 60px;
+  border-radius: 10px;
+  /* background: none; */
+  font-size: 20px;
+  color: gray;
+}
+.reser .rsrv .ress select {
+  border: 2px solid white;
+  width: 250px;
+  height: 60px;
+  border-radius: 10px;
+  /* background: none; */
+  margin: 20px 0;
+  font-size: 20px;
+  color: gray;
+}
+
+.reser .rsrv .ress button {
+  width: 200px;
+  height: 60px;
+  font-size: 18px;
+  border-radius: 10px;
+  font-family: "Anton", cursive;
+  margin: 30px 0;
+  border: none;
+}
+.reser .rsrv .ress button:hover {
+  background-color: rgb(167, 32, 32);
+  color: white;
+}
+.meet {
+  height: 20vh;
+  font-family: "Barlow Condensed", sans-serif;
+}
+.meet h1 {
+  font-weight: bold;
+  font-size: 70px;
+  padding: 3% 0;
+}
+.chefs {
+  height: 100vh;
+  font-family: "Barlow Condensed", sans-serif;
+}
+.chefs .chfs {
+  width: 30%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 30px;
+  text-align: center;
+}
+.chefs .chfs .imgch1 {
+  width: 380px;
+  height: 440px;
+  border-radius: 20px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("https://demo2.wpopal.com/fazfood/wp-content/uploads/2023/10/team-2.jpg");
+}
+.chefs .chfs .imgch2 {
+  width: 380px;
+  height: 440px;
+  border-radius: 20px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("https://demo2.wpopal.com/fazfood/wp-content/uploads/2023/10/team-3.jpg");
+}
+.chefs .chfs .imgch3 {
+  width: 380px;
+  height: 440px;
+  border-radius: 20px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("https://demo2.wpopal.com/fazfood/wp-content/uploads/2023/10/team-5.jpg");
+}
+/* .chefs .chfs .imgch1 .chimg1:hover{
+    width:  380px ;
+    height: 440px; 
+    background-color: rgba(128, 128, 128, 0.682);
+    
+} */
+.chefs .chfs .chh h1 {
+  font-weight: bold;
+  padding: 2% 0;
+}
+.chefs .chfs .chp p {
+  font-size: 18px;
+  padding: 5% 0;
+}
+.chefs .chfs .kitch {
+  width: 150px;
+  height: 30px;
+  background-color: rgb(5, 100, 51);
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: bold;
+  color: white;
+  margin: 0 30%;
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+  padding: 1% 0;
+}
+.dark input {
+  background-color: white;
+  color: black;
+}
+
+/* ========================================================= */
+@media only screen and (max-width: 768px) {
+  .about .abt {
+    width: 100%;
+    height: 40vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    background-image: url("https://demo2.wpopal.com/fazfood/wp-content/uploads/2023/10/about-bc.jpg");
+  }
+  .about .abt .abts {
+    height: 40vh;
+  }
+  .about .abt .abts h1 {
+    font-size: 40px;
+    padding-top: 20px;
+  }
+
+  .about .abt .abts p {
+    font-size: 15px;
+  }
+  .bmade .wrapper {
+    display: block;
+    padding: 0 0 20%;
+  }
+  .bmade .cola {
+    width: 100%;
+  }
+  .bmade .cola img {
+    width: 100%;
+  }
+  .bmade .maderight {
+    /* width: 100%;
+   padding: 50%;
+    text-align: center; */
+    display: none;
+  }
+
+  .magic .taste h1 {
+    font-size: 40px;
+  }
+  .magic .taste p:nth-child(1) {
+    font-size: 15px;
+  }
+  .magic .taste p:nth-child(3) {
+    font-size: 15px;
+  }
+  .magic {
+    padding: 10% 0;
+  }
+  .bct .wrapper {
+    width: 100%;
+    display: block;
+  }
+  .bct {
+    height: 300vh;
+    padding-left: 0;
+  }
+  .bct .card-bct {
+    display: block;
+    text-align: center;
+  }
+  .bct .card-bct .cardb {
+    display: block;
+    margin: 0 20% 0 40%;
+    width: 100%;
+    text-align: center;
+  }
+
+  .bct .card-bct .cardb .cardh h1 {
+    margin-left: 60%;
+    width: 100%;
+  }
+  .bct .card-bct .cardb .cardp p{
+    margin-left: 60%;
+    width: 100%;
+    font-size: 15px;
+  }
+  .meet h1 {
+    font-size: 40px;
+  }
+  .chefs {
+    display: block;
+    height: 300vh;
+  }
+  .chefs .chfs {
+    display: block;
+    margin: 0 20% 0 20%;
+    width: 100%;
+    text-align: center;
+  }
+  /* .chefs .chfs .kitch{ */
+  /* margin: 0; */
+  /* } */
+  /* .chefs .chfs .chh{
+    margin-left: 50px;
+    }
+  .chefs .chfs .chp{
+    margin-left: 100px;
+  } */
+
+  .reser {
+    height: 120vh;
+  }
+  .reser .plan {
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("https://demo2.wpopal.com/fazfood/wp-content/uploads/2023/10/h2_bg-1.jpg");
+
+    padding: 60px 0 0 30px;
+    position: relative;
+  }
+  .reser .plan span {
+    font-size: 25px;
+  }
+  .reser .plan h1 {
+    font-size: 30px;
+    /* padding: 1% 0; */
+  }
+  .reser .plan p:nth-child(2) {
+    font-size: 15px;
+    padding: 0 1% 3%;
+  }
+  .reser .plan p:nth-child(3) {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .reser .rsrv {
+    width: 100%;
+    height: 63vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("https://demo2.wpopal.com/fazfood/wp-content/uploads/2023/10/h4-bg-2.png");
+    position: absolute;
+    background-color: green;
+    border-radius: 30px;
+    right: 0;
+    margin: 100% 0 0;
+  }
+  .reser .rsrv .ress {
+    width: 100%;
+    height: 63vh;
+    background-color: rgba(5, 100, 51, 0.936);
+    border-radius: 30px;
+    text-align: center;
+  }
+  .reser .rsrv .ress h1 {
+    font-weight: bold;
+    font-size: 30px;
+    padding: 5% 0 0;
+  }
+  .reser .rsrv .ress p {
+    font-weight: bold;
+    font-size: 17px;
+    padding: 0 0 1%;
+  }
+  .reser .rsrv .ress input {
+    border: 2px solid white;
+    width: 250px;
+    height: 50px;
+    border-radius: 10px;
+    /* background: none; */
+    font-size: 15px;
+  }
+  .reser .rsrv .ress select {
+    width: 250px;
+    height: 50px;
+
+    margin: 20px 0;
+    font-size: 15px;
+  }
+
+  .reser .rsrv .ress button {
+    width: 140px;
+    height: 50px;
+    font-size: 15px;
+    border-radius: 10px;
+
+    margin: 10px 0;
+  }
+  .container-fluid {
+    background-color: rgb(248, 244, 238);
+    z-index: 1;
+  }
+}

@@ -1,0 +1,1389 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+}
+/* header nav ul li a.active{
+  background-color: rgb(167, 32, 32);
+  border-radius: 5px;
+} */
+main {
+  background-color: rgb(248, 244, 238);
+}
+header {
+  height: 100px;
+  /* background-color: rgb(248, 244, 238); */
+}
+.navbar .bg-body-tertiary {
+  background-color: rgb(248, 244, 238);
+}
+
+/* .container-fluid {
+  background-color: rgba(
+    var(--bs-tertiary-bg-rgb),
+    var(--bs-bg-opacity)
+  ) !important;
+} */
+nav {
+  height: 100px;
+  background-color: rgb(248, 244, 238);
+}
+header nav .collapse {
+  /* font-weight: bold; */
+  font-family: "Anton", sans-serif;
+}
+header nav .collapse a {
+  margin: 0 15px;
+}
+
+.wrapper {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container {
+  width: 85%;
+}
+.best {
+  width: 100%;
+  height: 120vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.best .text-best {
+  /* width: 50%; */
+  text-align: center;
+}
+/* .best .nugg{
+  width: 30%;
+  height: 300px;
+  background-image: url("https://demo2.wpopal.com/fazfood/wp-content/uploads/2023/10/h1_img3.png") ;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+} */
+.best .text-best p:nth-child(1) {
+  color: rgb(167, 32, 32);
+  font-family: "Anton", sans-serif;
+}
+.best .text-best p {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+}
+.best .text-best h1 {
+  font-family: "Anton", sans-serif;
+  font-size: 60px;
+  font-weight: 300;
+}
+.best .text-best button {
+  border: none;
+  width: 190px;
+  height: 60px;
+  border-radius: 10px;
+  color: white;
+  font-family: "Anton", sans-serif;
+}
+.best .text-best button:hover {
+  background-color: rgb(167, 32, 32);
+}
+.slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  width: 100%;
+  height: 95vh;
+}
+/* .slide svg {
+  margin: 0 90px;
+} */
+/* .slide img{
+  margin: 0 50px;
+} */
+.slide .imgsf {
+  margin: 0 80px;
+  width: 320px;
+  height: 130px;
+}
+.slide .pizza {
+  border-right: 1px solid rgba(128, 128, 128, 0.312);
+}
+.slide .burger {
+  border-right: 1px solid rgba(128, 128, 128, 0.312);
+}
+
+.today {
+  width: 100%;
+  height: 110vh;
+}
+.today .stac {
+  background-image: url("https://demo2.wpopal.com/fazfood/wp-content/uploads/2023/10/h1_bg2.jpg");
+  height: 110vh;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  position: relative;
+}
+.today .stac-txt {
+  position: absolute;
+  text-align: center;
+}
+.today .stac-txt h1 {
+  color: white;
+  font-weight: bolder;
+  font-size: 90px;
+}
+.today .stac-txt p {
+  margin: 5%;
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+}
+.today .stac-txt p:nth-child(2) {
+  color: orange;
+  font-weight: bold;
+}
+.today .stac-txt p:nth-child(3) {
+  color: white;
+}
+.today .stac-txt button {
+  border: none;
+  /* background-color: green; */
+  width: 190px;
+  height: 60px;
+  border-radius: 10px;
+  color: white;
+  /* font-weight: bolder; */
+  margin: 5%;
+  font-family: "Anton", sans-serif;
+}
+.today .stac-txt button:hover {
+  background-color: rgb(167, 32, 32);
+}
+.dish .dis {
+  /* padding-top: 20px; */
+  font-weight: bold;
+  font-size: 79px;
+  /* display: flex; */
+  color: rgba(128, 128, 128, 0.312);
+  animation: animate-dis 20s infinite linear;
+}
+@keyframes animate-dis {
+  to {
+    transform: translateX(100%);
+  }
+}
+.selling .sell {
+  text-align: center;
+}
+.selling .sel-txt {
+  text-align: center;
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+}
+.selling .sell h1 {
+  font-weight: bold;
+  font-size: 55px;
+  padding: 55px;
+}
+
+.selling button {
+  border: none;
+  width: 190px;
+  height: 60px;
+  border-radius: 10px;
+  color: white;
+  margin: 5%;
+  font-family: "Anton", sans-serif;
+}
+.selling button:hover {
+  background-color: rgb(167, 32, 32);
+}
+.gril .home1 {
+  background-image: url(https://demo2.wpopal.com/fazfood/wp-content/uploads/2023/10/rev_home1_05.jpg);
+  width: 50%;
+  height: 130vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.gril .home2 {
+  background-image: url("https://demo2.wpopal.com/fazfood/wp-content/uploads/2023/10/rev_home1.jpg");
+  width: 50%;
+  height: 130vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: white;
+  font-family: "Anton", sans-serif;
+}
+.gril .home2 h1 {
+  font-size: 120px;
+  /* font-weight: bold; */
+  padding: 150px 50px 0;
+}
+.gril .home2 p {
+  /* font-weight: bold; */
+  padding: 0 50px;
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+}
+.gril .home2 button {
+  border: none;
+  /* background-color: green; */
+  width: 190px;
+  height: 60px;
+  border-radius: 10px;
+  color: white;
+  /* font-weight: bolder; */
+  margin: 50px;
+}
+.gril .home2 button:hover {
+  background-color: rgb(167, 32, 32);
+}
+.gril .home1 .daire {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 350px 150px;
+}
+.gril .home1 .daire .img-d {
+  position: relative;
+  animation: animate 10s infinite linear;
+}
+.gril .home1 .daire .img-da {
+  position: absolute;
+}
+/* .best .daire2{
+  border: 2px solid orange;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin: 350px 200px;
+  animation: animate 10s infinite linear;
+} */
+
+@keyframes animate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.fbc .fash {
+  background-image: url("https://demo2.wpopal.com/fazfood/wp-content/uploads/2023/10/h1_img.jpg");
+  width: 34%;
+  height: 500px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  color: white;
+  font-family: "Anton", sans-serif;
+  margin: 0 1% 0 0;
+}
+.fbc .fash .fashf {
+  position: absolute;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.fbc .price {
+  color: orange;
+  font-size: 35px;
+}
+.fbc h1 {
+  margin: 60px 30px 10px;
+}
+.fbc p {
+  margin: 30px 0 10px 30px;
+}
+#menus {
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 18px;
+}
+#menus a:nth-child(1) {
+  text-decoration: none;
+  font-size: 25px;
+  font-weight: bold;
+}
+#menus a:nth-child(1):hover {
+  color: rgb(5, 100, 51);
+}
+#menus .btn {
+  float: right;
+  bottom: 300px;
+}
+#menus .btn:hover {
+  background-color: rgb(167, 32, 32);
+  border: 1px solid rgb(167, 32, 32);
+}
+.selling .stars i {
+  color: orange;
+  font-size: 13px;
+}
+.selling .stars span {
+  font-size: 13px;
+  color: rgb(55, 55, 55);
+  font-family: "Barlow Condensed", sans-serif;
+}
+
+#menus p:nth-child(4) {
+  padding: 30px 0 0 0;
+  font-weight: bold;
+  color: rgb(167, 32, 32);
+  font-size: 25px;
+}
+.fbc h1 {
+  font-size: 55px;
+}
+.fbc p {
+  font-size: 25px;
+}
+.fbc .beef {
+  background-image: url("https://demo2.wpopal.com/fazfood/wp-content/uploads/2023/10/h1_img4.jpg");
+  width: 34%;
+  height: 500px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  color: white;
+  font-family: "Anton", sans-serif;
+  margin: 0 1% 0 0;
+}
+.fbc .beef .beefb {
+  position: absolute;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  right: 0%;
+}
+.fbc .chees {
+  background-image: url("https://demo2.wpopal.com/fazfood/wp-content/uploads/2023/10/h2_bn-4.jpg");
+  width: 34%;
+  height: 500px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  color: white;
+  font-family: "Anton", sans-serif;
+}
+.fbc button {
+  border: none;
+  width: 190px;
+  height: 60px;
+  border-radius: 10px;
+  color: black;
+  background-color: white;
+  margin: 25px;
+  font-family: "Anton", sans-serif;
+  position: absolute;
+}
+
+.make .makev {
+  background-image: url("https://demo2.wpopal.com/fazfood/wp-content/uploads/2023/10/h1_bg1.jpg");
+  width: 100%;
+  height: 110vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  margin: 20px 0;
+}
+.make .makev .makes {
+  width: 100%;
+  height: 110vh;
+  background-color: rgba(0, 0, 0, 0.307);
+  padding: 200px 0;
+}
+.make .makev .make-text {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-family: "Anton", sans-serif;
+  position: absolute;
+  margin: 5% 37%;
+}
+.make .makev .dairem {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.make .makev .dairem .img-d {
+  position: relative;
+  animation: animate 10s infinite linear;
+}
+.make .makev .dairem .img-da {
+  position: absolute;
+}
+/* .test{
+  background-color: aliceblue;
+  width: 100%;
+  height: 100%;
+} */
+.test .testim {
+  font-weight: bold;
+  font-size: 80px;
+  /* display: flex; */
+  color: rgba(128, 128, 128, 0.312);
+  animation: animate-test 20s infinite linear;
+}
+@keyframes animate-test {
+  to {
+    transform: translateX(100%);
+  }
+}
+.icons {
+  display: flex;
+  gap: 10px;
+}
+.icons i {
+  border: 1px solid gray;
+  border-radius: 50%;
+  color: gray;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.says {
+  width: 100%;
+  height: 70vh;
+  background-color: rgb(248, 244, 238);
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 22px;
+  /* padding: 50px 0; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.txt-comm {
+  text-align: center;
+  bottom: 200px;
+  font-family: "Barlow Condensed", sans-serif;
+}
+.txt-comm h1 {
+  font-size: 65px;
+  font-weight: bold;
+}
+.txt-comm p {
+  font-size: 20px;
+  margin: 30px 0 0;
+}
+.says .com {
+  width: 27%;
+  height: 330px;
+  background-color: white;
+  border-radius: 30px;
+  margin: 0 3% 0 0;
+  padding: 20px;
+}
+.says .im-tx {
+  display: flex;
+  gap: 15px;
+}
+.says .im-tx h3 {
+  font-size: 20px;
+  font-weight: bold;
+}
+.says .comm {
+  width: 27%;
+  height: 330px;
+  background-color: white;
+  border-radius: 30px;
+  margin: 0 3% 0 0;
+  padding: 20px;
+}
+.says .commm {
+  width: 27%;
+  height: 330px;
+  background-color: white;
+  border-radius: 30px;
+  padding: 20px;
+}
+.says i {
+  color: orange;
+  font-size: 17px;
+}
+.super .deliv {
+  width: 50%;
+  height: 70vh;
+  background-image: url("https://demo2.wpopal.com/fazfood/wp-content/uploads/2023/10/h2_bn-3.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.super .delive {
+  width: 50%;
+  height: 70vh;
+  background-image: url("https://demo2.wpopal.com/fazfood/wp-content/uploads/2023/10/h1_bg.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.super .img-de {
+  float: right;
+  /* margin-top: %; */
+}
+.super .img-dee {
+  float: right;
+  margin-top: 10%;
+}
+.super {
+  color: white;
+  font-family: "Barlow Condensed", sans-serif;
+}
+
+.super .minp {
+  position: absolute;
+  padding: 40px;
+}
+.super .minp h1 {
+  font-size: 80px;
+  font-weight: bold;
+}
+.super .minp h4 {
+  font-size: 20px;
+  font-weight: bold;
+}
+.super .minp h2 {
+  font-weight: bold;
+  color: rgb(167, 32, 32);
+}
+.super .mins {
+  position: absolute;
+  padding: 40px;
+}
+.super .mins h1 {
+  font-size: 80px;
+  font-weight: bold;
+}
+.super .mins p {
+  font-size: 20px;
+  font-weight: 500;
+}
+.super button {
+  border: none;
+  width: 190px;
+  height: 60px;
+  border-radius: 10px;
+  color: black;
+  background-color: white;
+  font-family: "Anton", sans-serif;
+  position: absolute;
+  margin: 30px 0;
+}
+.follow {
+  border-top: 1px solid rgba(128, 128, 128, 0.312);
+}
+.follow .subs {
+  font-weight: bold;
+  font-size: 80px;
+  /* display: flex; */
+  color: rgba(128, 128, 128, 0.312);
+  animation: animate-subs 20s infinite linear;
+}
+@keyframes animate-subs {
+  to {
+    transform: translateX(100%);
+  }
+}
+.join {
+  text-align: center;
+  font-family: "Barlow Condensed", sans-serif;
+}
+.join p {
+  font-size: 20px;
+  margin: 30px 0;
+}
+.join h1 {
+  font-size: 65px;
+  font-weight: bold;
+}
+.inptt {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.inptt .inp-img {
+  width: 25%;
+  height: 300px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("https://demo2.wpopal.com/fazfood/wp-content/uploads/2023/10/global-ft-pic1.png");
+}
+.inptt .inp-imgg {
+  width: 25%;
+  height: 400px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("https://demo2.wpopal.com/fazfood/wp-content/uploads/2023/10/global-ft-pic2.png");
+}
+.inptt button {
+  border: none;
+  width: 190px;
+  height: 60px;
+  border-radius: 10px;
+  color: white;
+  font-family: "Anton", sans-serif;
+  margin: 0 15px;
+}
+.inptt button:hover {
+  background-color: rgb(167, 32, 32);
+}
+.inptt input:nth-child(1) {
+  width: 500px;
+  height: 60px;
+  border: none;
+  border-radius: 10px;
+}
+/* .inptt input:nth-child(2){
+  display: flex;
+  
+} */
+.inptt input::placeholder {
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 15px;
+  padding: 0 10px;
+}
+.menyu img {
+  width: 100%;
+}
+
+.foot {
+  background-color: rgb(248, 244, 238);
+  border-top: 1px solid rgba(128, 128, 128, 0.312);
+}
+footer ul li a {
+  font-size: 20px;
+  font-family: "Barlow Condensed", sans-serif;
+}
+footer p {
+  font-size: 18px;
+  font-family: "Barlow Condensed", sans-serif;
+}
+footer h5 {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: bold;
+}
+
+.copy {
+  text-align: center;
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.foot .hour {
+  border-left: 1px solid rgba(128, 128, 128, 0.312);
+}
+.foot .nav-item .nav-link:hover {
+  color: rgb(167, 32, 32);
+}
+.dropdown-menu .dropdown-item:hover {
+  color: rgb(167, 32, 32);
+  background: none;
+}
+.collapse .nav-link:hover {
+  color: rgb(167, 32, 32);
+}
+nav .collapse .nav-item .active {
+  color: rgb(167, 32, 32);
+}
+.selling .card {
+  border-radius: 30px;
+  border: none;
+}
+.navbar-toggler {
+  outline: 0px;
+}
+/* ==========================      mode     ======================================= */
+#btn-dark {
+  width: 50px;
+  border-radius: 50%;
+  border: none;
+  font-size: 20px;
+  background-color: rgba(1, 24, 86, 0.786);
+  color: yellow;
+}
+.dark #btn-dark {
+  background-color: rgba(92, 169, 251, 0.759);
+  color: yellow;
+}
+.light header,
+.light .container-fluid,
+.light .best,
+.light .slide,
+.light .dish,
+.light .txt-comm,
+.light .fbc,
+.light .test,
+.light .says,
+.light .follow,
+.light .join,
+.light .inptt,
+.light .foot,
+.light .make .wrapper {
+  background-color: rgb(248, 244, 238);
+  color: black;
+}
+.dark header,
+.dark .make,
+.dark .container-fluid,
+.dark .best,
+.dark .slide,
+.dark .dish,
+.dark .selling,
+.dark .txt-comm,
+.dark .fbc,
+.dark .test,
+.dark .says,
+.dark .follow,
+.dark .join,
+.dark .inptt,
+.dark .foot,
+.dark .make .wrapper,
+.dark .con-blog,
+.dark .regs,
+.dark .logg,
+.dark header nav {
+  background-color: rgb(37, 37, 37) !important;
+  color: white !important;
+}
+.dark .shopss,
+.dark main {
+  background-color: rgb(37, 37, 37) !important;
+}
+.light .com,
+.light .comm,
+.light .commm {
+  background-color: white;
+  color: black;
+}
+.dark .com,
+.dark .comm,
+.dark .commm,
+.dark .offcanvas-body,
+.dark .offcanvas-header {
+  background-color: rgb(45, 45, 45);
+  color: white;
+}
+.light .slide {
+  background-color: white;
+}
+.dark .slide {
+  background-color: rgb(37, 37, 37);
+}
+.dark .meet {
+  background-color: rgb(37, 37, 37) !important;
+  color: white !important;
+}
+.dark .chefs {
+  background-color: rgb(37, 37, 37) !important;
+  color: white !important;
+}
+.dark .limit {
+  background-color: rgb(37, 37, 37) !important;
+  color: white !important;
+}
+.light .text {
+  color: gray;
+}
+.dark .text {
+  color: rgba(227, 226, 226, 0.618);
+}
+.light .nnn {
+  color: rgb(248, 244, 238);
+}
+.dark .nnn {
+  color: rgb(37, 37, 37);
+}
+.light .comt {
+  background-color: rgb(248, 244, 238);
+}
+.dark .comt {
+  background-color: rgb(37, 37, 37);
+}
+.dark input {
+  background-color: rgb(100, 100, 100);
+  color: white;
+  border: none;
+}
+.light .card {
+  background-color: white;
+}
+.dark .dropdown-menu,
+.dark .card {
+  background-color: rgb(53, 53, 53);
+  color: white;
+}
+.dark .card span,
+.dark header a,
+.dark .offcanvas-header .btn-close {
+  color: white;
+}
+.dark .offcanvas-header .btn-close,
+.dark .navbar-toggler {
+  background-color: rgb(100, 100, 100);
+}
+
+/* ============================================================= */
+header nav button a {
+  text-decoration: none;
+  color: white;
+}
+header nav button:nth-child(6):hover {
+  background-color: rgb(5, 100, 51);
+  border: 1px solid rgb(5, 100, 51);
+}
+header nav button:nth-child(1) {
+  width: 50px;
+  border: none;
+  border-radius: 50%;
+  background-color: rgba(230, 230, 230, 0.811);
+}
+input {
+  outline: 0px;
+  padding-left: 10px;
+}
+.foot footer .icons i:hover {
+  border: 1px solid rgb(167, 32, 32);
+  color: rgb(167, 32, 32);
+}
+header nav .loginn a {
+  text-decoration: none;
+  /* color: white; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0 10px;
+}
+
+header nav .loginn {
+  padding: 1px;
+  width: 120px;
+  height: 50px;
+}
+header nav .loginn a {
+  color: rgb(5, 100, 51);
+}
+header nav .loginn a:hover {
+  color: white;
+}
+.regs {
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 20px;
+}
+.regs button {
+  font-size: 20px;
+}
+.logg {
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 20px;
+}
+.logg button {
+  font-size: 20px;
+  color: white;
+}
+.logg button a {
+  text-decoration: none;
+  color: white;
+}
+.logg .buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logg .buttons p {
+  margin: 2% 0 2% 35%;
+}
+.offcanvas-header {
+  border-bottom: 1px solid rgba(159, 159, 159, 0.388);
+  background-color: rgb(248, 244, 238);
+}
+.offcanvas-header h5 {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: bold;
+  font-size: 25px;
+}
+.offcanvas-body {
+  font-family: "Barlow Condensed", sans-serif;
+  text-align: center;
+  font-size: 20px;
+  background-color: rgb(248, 244, 238);
+}
+.regst{
+  border: none;
+  border: 1px solid rgb(145, 37, 240);
+  background-color:  rgb(145, 37, 240);
+  padding: 6px;
+  border-radius: 5px;
+}
+/* =========================================================================================================== */
+
+@media only screen and (max-width: 768px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  .gril .home1 {
+    height: 60vh;
+  }
+  .gril .home2 {
+    height: 60vh;
+  }
+  .gril .home1 .daire {
+    margin-top: 50%;
+    margin-left: 25%;
+  }
+  .gril .home1 .daire .img-d {
+    width: 130px;
+  }
+  .gril .home1 .daire .img-da {
+    width: 70px;
+  }
+  .make .makev .makes .dairem .img-d {
+    width: 150px;
+  }
+  .make .makev .makes .dairem .img-da {
+    width: 90px;
+  }
+  .gril .home2 h1 {
+    font-size: 30px;
+    padding: 20px;
+  }
+  .gril .home2 p {
+    font-size: 15px;
+    padding: 20px;
+  }
+  .gril .home2 button {
+    font-size: 15px;
+    width: 120px;
+    height: 50px;
+    padding: 5px 0;
+    margin: 20px;
+  }
+  .best {
+    height: 85vh;
+  }
+  .best img:nth-child(1) {
+    display: none;
+  }
+  .best .text-best button {
+    font-size: 15px;
+    width: 140px;
+    height: 50px;
+    padding: 5px 0;
+  }
+  .best .text-best h1 {
+    font-size: 30px;
+  }
+  .best .text-best p {
+    font-size: 15px;
+  }
+  .best .nugg img {
+    display: none;
+  }
+  .slide {
+    display: block;
+    padding: 0 0 0 6%;
+    height: 260vh;
+  }
+  .slide .pizza {
+    border-right: none;
+  }
+  .slide .burger {
+    border-right: none;
+  }
+  .slide img {
+    width: 400px;
+  }
+  .slide .imgsf {
+    margin: 0 10%;
+  }
+  .today {
+    width: 100%;
+    height: 70vh;
+    /* padding: 900px 0; */
+    background-image: url("https://demo2.wpopal.com/fazfood/wp-content/uploads/2023/10/h1_bg2.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+  }
+  .today .stac {
+    height: 70vh;
+  }
+  .today .stac-txt {
+    position: absolute;
+    text-align: center;
+  }
+  .today .stac-txt button {
+    font-size: 15px;
+    width: 120px;
+    height: 45px;
+    padding: 5px 0;
+  }
+  .today .stac-txt h1 {
+    font-size: 30px;
+  }
+  .today .stac-txt p {
+    font-size: 15px;
+  }
+  .dish .dis p {
+    font-size: 25px;
+    /* padding: 20% 0 0; */
+  }
+  .selling .sell h1 {
+    font-size: 30px;
+    padding: 5px;
+  }
+  .selling .sel-txt p {
+    font-size: 15px;
+  }
+  .selling .sel-txt button {
+    font-size: 15px;
+    width: 140px;
+    height: 45px;
+    padding: 5px 0;
+  }
+  .selling .card {
+    height: 95vh;
+    margin: 0;
+  }
+  .pods .card {
+    height: 95vh;
+  }
+  .fbc div {
+    display: block;
+  }
+
+  .fbc .fash {
+    background-image: url("https://demo2.wpopal.com/fazfood/wp-content/uploads/2023/10/h1_img.jpg");
+    width: 100%;
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+  }
+  .fbc .fash .fashf {
+    position: absolute;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 350px;
+    bottom: 0%;
+    left: 20%;
+  }
+  .fbc .beef {
+    background-image: url("https://demo2.wpopal.com/fazfood/wp-content/uploads/2023/10/h1_img4.jpg");
+    width: 100%;
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+  }
+  .fbc .beef .beefb {
+    position: absolute;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 250px;
+    bottom: 0%;
+    left: 32%;
+  }
+  .fbc .chees {
+    background-image: url("https://demo2.wpopal.com/fazfood/wp-content/uploads/2023/10/h2_bn-4.jpg");
+    width: 100%;
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+  }
+
+  .fbc .fash {
+    width: 760px;
+    padding: 4%;
+  }
+  .fbc .fash h1 {
+    font-size: 30px;
+  }
+  .fbc .fash p {
+    font-size: 15px;
+  }
+  .fbc .fash button {
+    font-size: 15px;
+    width: 130px;
+    height: 45px;
+    padding: 5px 0;
+  }
+  .fbc .beef h1 {
+    font-size: 30px;
+  }
+  .fbc .beef p {
+    font-size: 15px;
+  }
+  .fbc .beef button {
+    font-size: 15px;
+    width: 130px;
+    height: 45px;
+    padding: 5px 0;
+  }
+  .fbc .chees h1 {
+    font-size: 30px;
+  }
+  .fbc .chees p {
+    font-size: 15px;
+  }
+  .fbc .chees button {
+    font-size: 15px;
+    width: 130px;
+    height: 45px;
+    padding: 5px 0;
+  }
+  .fbc .fash .fashf {
+    right: 0%;
+  }
+  .fbc .beef {
+    width: 760px;
+    padding: 4%;
+  }
+  .fbc .chees {
+    width: 768px;
+    padding: 4%;
+  }
+  .make .makev {
+    height: 60vh;
+  }
+  .make .makev .makes {
+    height: 60vh;
+    /* position: relative; */
+    padding: 10% 7%;
+  }
+  .make .makev .makes .dairem {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .make .makev .makes .make-text {
+    margin: 10% 20%;
+  }
+  .make .makev .makes .make-text h1 {
+    font-size: 20px;
+  }
+  .test .testim p {
+    font-size: 25px;
+  }
+  .txt-comm {
+    padding: 5px 0;
+  }
+  .txt-comm h1 {
+    font-size: 30px;
+  }
+  .txt-comm p {
+    font-size: 15px;
+  }
+  .says {
+    display: block;
+    height: 130vh;
+    width: 100%;
+    padding: 0 0 0 10%;
+  }
+  .says div {
+    display: block;
+  }
+  .says p {
+    font-size: 15px;
+  }
+  .says p i {
+    font-size: 15px;
+  }
+  .says .com {
+    height: auto;
+    width: 90%;
+    padding: 7%;
+    margin: 7% 0;
+  }
+  .says .comm {
+    height: auto;
+    width: 90%;
+    padding: 7%;
+    margin: 7% 0;
+  }
+  .says .commm {
+    height: auto;
+    width: 90%;
+    padding: 7%;
+    margin: 7% 0;
+  }
+  .super div {
+    display: block;
+  }
+  .super .deliv {
+    width: 100%;
+    height: 55vh;
+    position: relative;
+  }
+
+  .super .delive {
+    width: 100%;
+    height: 55vh;
+    position: relative;
+  }
+  .super .deliv h1 {
+    font-size: 30px;
+  }
+  .super .delive h1 {
+    font-size: 30px;
+  }
+  .super .deliv .img-de {
+    width: 60%;
+    position: absolute;
+    right: 0%;
+    bottom: 0%;
+  }
+  .super .deliv p {
+    font-size: 15px;
+  }
+  .super .delive p {
+    font-size: 15px;
+  }
+  .super .delive .img-dee {
+    width: 55%;
+    position: absolute;
+    right: 0%;
+    bottom: 0%;
+  }
+  .super button {
+    font-size: 15px;
+    width: 130px;
+    height: 45px;
+    padding: 5px 0;
+  }
+  .follow .subs p {
+    font-size: 25px;
+  }
+  .join .j-for h1 {
+    font-size: 30px;
+  }
+  .join .j-for p {
+    font-size: 15px;
+  }
+  .inptt .inp-img {
+    display: none;
+  }
+  .inptt .inp-imgg {
+    display: none;
+  }
+  .inptt {
+    height: 20vh;
+  }
+  .inptt .inputt {
+    height: auto;
+  }
+  .inptt .inputt input {
+    width: auto;
+    height: 45px;
+  }
+  .inptt button {
+    font-size: 15px;
+    width: 110px;
+    height: 45px;
+    padding: 5px 0;
+  }
+  .menyu div {
+    display: block;
+  }
+  .foot {
+    text-align: center;
+  }
+  .foot #icon {
+    border-left: none;
+  }
+  .foot .icons {
+    margin: 0 25%;
+  }
+  .container-fluid {
+    background-color: rgb(248, 244, 238);
+    z-index: 1;
+    font-size: 15px;
+  }
+  .container-fluid a {
+    font-size: 15px;
+  }
+  .container-fluid button {
+    font-size: 15px;
+    margin: 0 0 20px;
+  }
+  .container-fluid button:nth-child(5) {
+    font-size: 15px;
+    display: none;
+  }
+  .container-fluid button:nth-child(3) i {
+    font-size: 15px;
+    padding: 0;
+    display: none;
+  }
+  .container-fluid button:nth-child(3) {
+    font-size: 15px;
+    padding: 0;
+    width: auto;
+  }
+  .container-fluid button:nth-child(4) i {
+    display: none;
+  }
+  .container-fluid button:nth-child(4) {
+    font-size: 15px;
+    padding: 0;
+    width: auto;
+  }
+
+  .container-fluid button:nth-child(5) {
+    font-size: 15px;
+    padding: 0;
+    width: auto;
+  }
+  .container-fluid button:nth-child(5) i{
+    display: none;
+  }
+
+  .container-fluid button:nth-child(6) {
+    font-size: 15px;
+    padding: 0;
+    width: auto;
+  }
+}
